@@ -1,9 +1,11 @@
-import { useState } from "react";
+
 import {BrowserRouter, Routes, Route}from "react-router-dom"
 import Layout from "./layout";
-import HomePage from "./homePage";
-import About from "./about";
-import Page404 from "./page404";
+import HomePage from "./page/homePage";
+import About from "./page/about";
+import Page404 from "./page/page404";
+
+import "./styles/style.css"
 
 function App() {
  
