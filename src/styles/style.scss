@@ -1,3 +1,7 @@
+
+$bacColor:rgb(241, 171, 121);
+
+
 * {
   margin: 0;
   padding: 0;
@@ -27,8 +31,13 @@ ul {
     padding: 0.5rem 0.75rem;
     font-size: 1.5rem;
     border: none;
-    background-color: rgb(186, 252, 181);
+   border:2px solid $bacColor;
+   background-color: transparent;
     cursor: pointer;
+    &:hover{
+      background-color: $bacColor;
+      color: #fff
+    }
   }
 }
 

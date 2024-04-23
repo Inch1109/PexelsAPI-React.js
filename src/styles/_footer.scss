@@ -1,8 +1,9 @@
+
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.25rem;
-  background-color: rgb(228, 255, 226);
+  background-color: $bacColor;
   min-height: 10vh;
 }

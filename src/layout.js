@@ -2,10 +2,11 @@ import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import Footer from "./components/footer";
 
+
 export default function Layout() {
   return (
     <div>
-      <nav>
+      <nav >
         <ul>
           <li>
             <Link to="/">HOME</Link>

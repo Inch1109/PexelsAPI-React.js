@@ -7,10 +7,16 @@
   input,
   button {
     font-size: 2rem;
-    padding: 0.25rem;
-    border: 3px solid rgb(186, 252, 181);
+    padding: 0.35rem;
+    line-height: 26px;
+   
+  }
+  input{
+    border: 2px solid $bacColor;
   }
   button {
-    background-color: rgb(186, 252, 181);
+    background-color: $bacColor;
+    border: 3px solid $bacColor;
+    color: #fff;
   }
 }
